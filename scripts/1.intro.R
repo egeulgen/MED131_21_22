@@ -110,6 +110,7 @@ my_vec
 
 ### bar plot
 freq_tbl <- table(eye_color)
+?barplot
 barplot(freq_tbl)
 
 barplot(freq_tbl, horiz = TRUE)
