@@ -13,10 +13,13 @@ aids_df <- read.delim("data/aids_dataset.txt", sep = " ")
 head(aids_df)
 
 # print first 2 rows
-head(aids_df, 2)
+head(aids_df, n = 2)
 
 # print last 6 rows
 tail(aids_df)
+
+table(aids_df$treatment)
+table(aids_df$gender)
 
 # mean/median/mode --------------------------------------------------------
 
@@ -51,7 +54,6 @@ IQR(aids_df$cd4_1)
 var(aids_df$cd4_1)
 
 # Std. deviation of CD4 counts at week 1
-sqrt(var(aids_df$cd4_1))
 sd(aids_df$cd4_1)
 
 
