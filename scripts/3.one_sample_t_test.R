@@ -17,34 +17,32 @@ table(aids_df$treatment)
 summary(aids_df)
 
 # one-sample t-test -------------------------------------------------------
-# define percent benefit
-perc_change <- (aids_df$cd4_2 - aids_df$cd4_1) / aids_df$cd4_1 * 100
-aids_df$perc_benefit <- perc_change / (aids_df$week_2 - aids_df$week_1)
-
 # subset for trt1
 trt1_df <- subset(aids_df, treatment == "trt1")
 
-summary(trt1_df)
-hist(trt1_df$perc_benefit)
+summary(trt1_df$cd4_2)
+hist(trt1_df$cd4_2)
 
 ?t.test
-# is the percent benefit for trt1 different than 0? (alpha = 0.05, conf. level = 95%)
-t.test(trt1_df$perc_benefit)
+# is the CD4 level at week 2 for trt1 different than 0?
+t.test(trt1_df$cd4_2)
 
-# is the percent benefit for trt1 different than 0? (alpha = 0.1, conf. level = 90%)
-t.test(trt1_df$perc_benefit, conf.level = 0.9)
+# is the CD4 level at week 2 for trt1 different than 20?
+t.test(trt1_df$cd4_2, mu = 20)
 
-# is the percent benefit for trt1 different than 0? (alpha = 0.01, conf. level = 99%)
-t.test(trt1_df$perc_benefit, conf.level = 0.99)
-
-
-# is the percent benefit for trt1 different than -1? (alpha = 0.05)
-t.test(trt1_df$perc_benefit, mu = -1)
+# is the CD4 level at week 2 for trt1 different than 25?
+t.test(trt1_df$cd4_2, mu = 25)
 
 
-# is the percent benefit for trt1 larger than 1?
-t.test(trt1_df$perc_benefit, mu = 1, alternative = "greater")
+# is the CD4 level at week 2 for trt1 different than 20? (alpha = 0.1, conf. level = 90%)
+t.test(trt1_df$cd4_2, mu = 20, conf.level = 0.9)
+
+# is the CD4 level at week 2 for trt1 different than 20? (alpha = 0.01, conf. level = 99%)
+t.test(trt1_df$cd4_2, mu = 20, conf.level = 0.99)
 
 
-# is the percent benefit for trt1 smaller than 1?
-t.test(trt1_df$perc_benefit, mu = 1, alternative = "less")
+# is the CD4 level at week 2 for trt1 larger than 25?
+t.test(trt1_df$cd4_2, mu = 25, alternative = "greater")
+
+# is the CD4 level at week 2 for trt1 smaller than 25?
+t.test(trt1_df$cd4_2, mu = 25, alternative = "less")
