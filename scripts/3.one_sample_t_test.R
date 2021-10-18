@@ -17,6 +17,9 @@ table(aids_df$treatment)
 summary(aids_df)
 
 # one-sample t-test -------------------------------------------------------
+boxplot(aids_df$cd4_2)
+boxplot(aids_df$cd4_2~aids_df$treatment)
+
 # subset for trt1
 trt1_df <- subset(aids_df, treatment == "trt1")
 
