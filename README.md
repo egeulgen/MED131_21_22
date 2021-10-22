@@ -67,7 +67,8 @@ testing - one sample</a>
 2021-10-28
 </td>
 <td style="text-align:left;">
-Hypothesis testing - two samples
+<a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/4.two_sample.pdf" style="     ">Hypothesis
+testing - two samples</a>
 </td>
 <td style="text-align:left;">
 </td>
