@@ -67,8 +67,7 @@ testing - one sample</a>
 2021-10-28
 </td>
 <td style="text-align:left;">
-<a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/4.two_sample.pdf" style="     ">Hypothesis
-testing - two samples</a>
+Republic Day Eve
 </td>
 <td style="text-align:left;">
 </td>
@@ -81,7 +80,7 @@ testing - two samples</a>
 2021-11-04
 </td>
 <td style="text-align:left;">
-Hypothesis testing - &gt;2 samples
+Hypothesis testing - two samples/ &gt;2 samples
 </td>
 <td style="text-align:left;">
 review before MT 1
@@ -203,7 +202,7 @@ Power analysis and sample size calculation
 Review before final
 </td>
 <td style="text-align:left;">
-Review before final
+review before final
 </td>
 </tr>
 <tr>

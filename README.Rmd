@@ -14,13 +14,12 @@ suppressMessages(sched_df <- readxl::read_excel("misc/MED131_lectures.xlsx"))
 sched_df$Slides <- sched_df$`R script` <- NULL
 colnames(sched_df)[4] <- "review"
 sched_df$review[is.na(sched_df$review)] <- ""
-sched_df$review[14] <- "Review before final"
+sched_df$review[14] <- "review before final"
 
 # links to lectures
 sched_df$Subject[1] <- kableExtra::cell_spec(sched_df$Subject[1], "html", link = "https://github.com/egeulgen/MED131_21_22/blob/main/lectures/1.descriptive.pdf")
 sched_df$Subject[2] <- kableExtra::cell_spec(sched_df$Subject[2], "html", link = "https://github.com/egeulgen/MED131_21_22/blob/main/lectures/2.descriptive.pdf")
 sched_df$Subject[3] <- kableExtra::cell_spec(sched_df$Subject[3], "html", link = "https://github.com/egeulgen/MED131_21_22/blob/main/lectures/3.hypothesis_testing_one_sample.pdf")
-sched_df$Subject[4] <- kableExtra::cell_spec(sched_df$Subject[4], "html", link = "https://github.com/egeulgen/MED131_21_22/blob/main/lectures/4.two_sample.pdf")
 
 kableExtra::row_spec(kableExtra::row_spec(knitr::kable(sched_df, format = "html", escape = FALSE), which(grepl("Midterm", sched_df$Subject)), bold = TRUE, background = "#F4B41A"), nrow(sched_df), bold = TRUE, background = "#E2725A")
 ```
