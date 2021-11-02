@@ -80,7 +80,8 @@ Republic Day Eve
 2021-11-04
 </td>
 <td style="text-align:left;">
-Hypothesis testing - two samples/ &gt;2 samples
+<a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/5.two_sample_anova.pdf" style="     ">Hypothesis
+testing - two samples/ &gt;2 samples</a>
 </td>
 <td style="text-align:left;">
 review before MT 1

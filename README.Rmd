@@ -17,9 +17,11 @@ sched_df$review[is.na(sched_df$review)] <- ""
 sched_df$review[14] <- "review before final"
 
 # links to lectures
-sched_df$Subject[1] <- kableExtra::cell_spec(sched_df$Subject[1], "html", link = "https://github.com/egeulgen/MED131_21_22/blob/main/lectures/1.descriptive.pdf")
-sched_df$Subject[2] <- kableExtra::cell_spec(sched_df$Subject[2], "html", link = "https://github.com/egeulgen/MED131_21_22/blob/main/lectures/2.descriptive.pdf")
-sched_df$Subject[3] <- kableExtra::cell_spec(sched_df$Subject[3], "html", link = "https://github.com/egeulgen/MED131_21_22/blob/main/lectures/3.hypothesis_testing_one_sample.pdf")
+base_url <- "https://github.com/egeulgen/MED131_21_22/blob/main/"
+sched_df$Subject[1] <- kableExtra::cell_spec(sched_df$Subject[1], "html", link = paste0(base_url, "lectures/1.descriptive.pdf"))
+sched_df$Subject[2] <- kableExtra::cell_spec(sched_df$Subject[2], "html", link = paste0(base_url, "lectures/2.descriptive.pdf"))
+sched_df$Subject[3] <- kableExtra::cell_spec(sched_df$Subject[3], "html", link = paste0(base_url, "lectures/3.hypothesis_testing_one_sample.pdf"))
+sched_df$Subject[5] <- kableExtra::cell_spec(sched_df$Subject[5], "html", link = paste0(base_url, "lectures/5.two_sample_anova.pdf"))
 
 kableExtra::row_spec(kableExtra::row_spec(knitr::kable(sched_df, format = "html", escape = FALSE), which(grepl("Midterm", sched_df$Subject)), bold = TRUE, background = "#F4B41A"), nrow(sched_df), bold = TRUE, background = "#E2725A")
 ```
