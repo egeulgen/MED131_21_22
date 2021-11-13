@@ -52,3 +52,19 @@ res_aov <- aov(size ~ group, data = tumor_size_df)
 summary(res_aov)
 
 TukeyHSD(res_aov)
+
+
+# Chi-squared test --------------------------------------------------------
+treatment_df <- read.csv("https://goo.gl/j6lRXD")
+
+head(treatment_df)
+dim(treatment_df)
+
+
+
+table(treatment_df$treatment, treatment_df$improvement)
+
+chisq.test(table(treatment_df$treatment, treatment_df$improvement))
+# we reject the null hypothesis and conclude that the two variables are dependent
+
+# a detailed tutorial on: http://www.sthda.com/english/wiki/chi-square-test-of-independence-in-r
