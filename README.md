@@ -81,7 +81,7 @@ Republic Day Eve
 </td>
 <td style="text-align:left;">
 <a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/5.two_sample_anova.pdf" style="     ">Hypothesis
-testing - two samples/ &gt;2 samples</a>
+testing - two samples/ \>2 samples</a>
 </td>
 <td style="text-align:left;">
 review before MT 1
@@ -108,7 +108,8 @@ Midterm Exam 1
 2021-11-18
 </td>
 <td style="text-align:left;">
-Hypothesis testing - categorical outcomes
+<a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/7.chi_squared.pdf" style="     ">Hypothesis
+testing - categorical outcomes</a>
 </td>
 <td style="text-align:left;">
 </td>
