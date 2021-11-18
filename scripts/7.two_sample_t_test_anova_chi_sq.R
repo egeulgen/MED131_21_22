@@ -38,7 +38,6 @@ sd(genderweight$weight[genderweight$group == "M"])
 sd(genderweight$weight[genderweight$group == "F"])
 
 ## is the mean weight of men significantly different than the mean weight of women?
-t.test(genderweight$weight~genderweight$group)
 t.test(weight~group, data = genderweight)
 
 # ANOVA -------------------------------------------------------------------
