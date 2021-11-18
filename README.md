@@ -122,7 +122,7 @@ testing - categorical outcomes</a>
 2021-11-25
 </td>
 <td style="text-align:left;">
-Hypothesis testing - Nonparametric
+Hypothesis testing - Nonparametric / Linear regression
 </td>
 <td style="text-align:left;">
 </td>
@@ -135,7 +135,7 @@ Hypothesis testing - Nonparametric
 2021-12-02
 </td>
 <td style="text-align:left;">
-Linear regression
+Logistic and Poisson regression
 </td>
 <td style="text-align:left;">
 </td>
@@ -148,7 +148,7 @@ Linear regression
 2021-12-09
 </td>
 <td style="text-align:left;">
-Logistic and Poisson regression
+review before MT 2
 </td>
 <td style="text-align:left;">
 review before MT 2
