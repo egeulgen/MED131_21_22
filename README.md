@@ -122,7 +122,8 @@ testing - categorical outcomes</a>
 2021-11-25
 </td>
 <td style="text-align:left;">
-Hypothesis testing - Nonparametric / Linear regression
+<a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/8.nonparametric_linear_reg.pdf" style="     ">Hypothesis
+testing - Nonparametric / Linear regression</a>
 </td>
 <td style="text-align:left;">
 </td>
