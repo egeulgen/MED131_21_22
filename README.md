@@ -136,7 +136,8 @@ testing - Nonparametric / Linear regression</a>
 2021-12-02
 </td>
 <td style="text-align:left;">
-Logistic and Poisson regression
+<a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/9.logistic_poisson.pdf" style="     ">Logistic
+and Poisson regression</a>
 </td>
 <td style="text-align:left;">
 </td>

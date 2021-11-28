@@ -24,6 +24,7 @@ sched_df$Subject[3] <- kableExtra::cell_spec(sched_df$Subject[3], "html", link =
 sched_df$Subject[5] <- kableExtra::cell_spec(sched_df$Subject[5], "html", link = paste0(base_url, "lectures/5.two_sample_anova.pdf"))
 sched_df$Subject[7] <- kableExtra::cell_spec(sched_df$Subject[7], "html", link = paste0(base_url, "lectures/7.chi_squared.pdf"))
 sched_df$Subject[8] <- kableExtra::cell_spec(sched_df$Subject[8], "html", link = paste0(base_url, "lectures/8.nonparametric_linear_reg.pdf"))
+sched_df$Subject[9] <- kableExtra::cell_spec(sched_df$Subject[9], "html", link = paste0(base_url, "lectures/9.logistic_poisson.pdf"))
 
 kableExtra::row_spec(kableExtra::row_spec(knitr::kable(sched_df, format = "html", escape = FALSE), which(grepl("Midterm", sched_df$Subject)), bold = TRUE, background = "#F4B41A"), nrow(sched_df), bold = TRUE, background = "#E2725A")
 ```
