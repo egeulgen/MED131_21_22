@@ -51,6 +51,11 @@ summary(fit3)
 fit4 <- lm(logPSA~vol + Gleason, data = prca_df)
 summary(fit4)
 
+prca_df$Gleason <- relevel(prca_df$Gleason, "7")
+fit4_2 <- lm(logPSA~vol + Gleason, data = prca_df)
+summary(fit4_2)
+prca_df$Gleason <- relevel(prca_df$Gleason, "6")
+
 final_fit <- lm(logPSA~I(vol - min(vol)) + invasion + Gleason, data = prca_df)
 summary(final_fit)
 
@@ -86,6 +91,7 @@ summary(fit5)
 fit6 <- glm(low~lwt + race + smoke + ht, data = birthwt, family = binomial)
 summary(fit6)
 
+(exp(-0.0179) - 1) * 100
 
 # Poisson Regression ------------------------------------------------------
 library(HSAUR)
