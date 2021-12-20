@@ -177,7 +177,8 @@ Midterm Exam 2
 2021-12-23
 </td>
 <td style="text-align:left;">
-Sampling methods and missing data
+<a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/12.sampling_missing.pdf" style="     ">Sampling
+methods and missing data</a>
 </td>
 <td style="text-align:left;">
 </td>
