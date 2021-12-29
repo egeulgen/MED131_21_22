@@ -191,7 +191,8 @@ methods and missing data</a>
 2021-12-30
 </td>
 <td style="text-align:left;">
-Power analysis and sample size calculation
+<a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/13.power_analysis.pdf" style="     ">Power
+analysis and sample size calculation</a>
 </td>
 <td style="text-align:left;">
 </td>
