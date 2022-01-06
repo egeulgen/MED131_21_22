@@ -205,7 +205,8 @@ analysis and sample size calculation</a>
 2022-01-06
 </td>
 <td style="text-align:left;">
-Review before final
+<a href="https://github.com/egeulgen/MED131_21_22/blob/main/lectures/14.review.pdf" style="     ">Review
+before final</a>
 </td>
 <td style="text-align:left;">
 review before final
